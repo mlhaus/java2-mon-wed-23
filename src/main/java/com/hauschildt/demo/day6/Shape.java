@@ -1,4 +1,4 @@
-package com.hauschildt.day6;
+package com.hauschildt.demo.day6;
 
 public abstract class Shape {
     private int numSides;

@@ -1,10 +1,10 @@
-package com.hauschildt.day6;
+package com.hauschildt.demo.day6;
 
-import com.hauschildt.day2.BankAccount;
+import com.hauschildt.demo.day2.BankAccount;
 
 import java.util.*;
 
-import static com.hauschildt.day6.MyCollections.printCollection;
+import static com.hauschildt.demo.day6.MyCollections.printCollection;
 
 public class MutableLists {
     private static List<BankAccount> myList3;

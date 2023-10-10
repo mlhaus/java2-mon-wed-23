@@ -1,4 +1,4 @@
-package com.hauschildt.day6;
+package com.hauschildt.demo.day6;
 
 import java.util.ArrayList;
 import java.util.Iterator;

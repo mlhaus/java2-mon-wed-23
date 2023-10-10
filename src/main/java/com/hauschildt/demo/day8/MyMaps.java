@@ -1,4 +1,4 @@
-package com.hauschildt.day8;
+package com.hauschildt.demo.day8;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -38,6 +38,7 @@ public class MyMaps {
 
         // Map State Tree to the Count
         Map<String, Integer> treeCount = new TreeMap<>();
+        // loop through the original map
         for(String state: stateTrees.keySet()) {
             String tree = stateTrees.get(state);
             if(!treeCount.containsKey(tree)) {

@@ -1,4 +1,4 @@
-package com.hauschildt.day6;
+package com.hauschildt.demo.day6;
 
 public class Rectangle extends Shape {
     private double length;

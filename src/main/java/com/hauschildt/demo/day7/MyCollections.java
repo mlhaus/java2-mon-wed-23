@@ -1,6 +1,4 @@
-package com.hauschildt.day7;
-
-import com.hauschildt.day2.Person;
+package com.hauschildt.demo.day7;
 
 import java.util.*;
 
