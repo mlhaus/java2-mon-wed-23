@@ -71,6 +71,12 @@ class FractionTest {
         assertEquals(expected, actual, 0.01);
     }
 
+    @Test
+    public void mixedNumber() {
+        Fraction fraction = new Fraction(4, 1);
+        assertEquals("4", fraction.mixedNumber());
+    }
+
 
 
 }

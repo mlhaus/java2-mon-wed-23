@@ -44,5 +44,11 @@ public class Fraction {
         int gcd = Integer.parseInt(i.toString());
         return gcd;
     }
+
+    public String mixedNumber() {
+        return "";
+    }
+
+
 }
 
