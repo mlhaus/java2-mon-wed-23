@@ -75,6 +75,9 @@ class FractionTest {
     public void mixedNumber() {
         Fraction fraction = new Fraction(4, 1);
         assertEquals("4", fraction.mixedNumber());
+
+        fraction = new Fraction(13, 5);
+        assertEquals("2 3/5", fraction.mixedNumber());
     }
 
 
