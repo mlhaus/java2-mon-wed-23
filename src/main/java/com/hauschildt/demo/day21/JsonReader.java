@@ -37,7 +37,7 @@ public class JsonReader {
     }
 
     public static void main(String[] args) throws IOException, JSONException {
-        JSONObject json = readJsonFromUrl("https://randomuser.me/api/?format=json&seed=abc&results=5&nat=us&inc=name,location,email,phone,cell,gender,nat,login&noinfo");
+        JSONObject json = readJsonFromUrl("https://randomuser.me/api/?format=json&seed=abc&results=5&nat=us&inc=name,picture,location,email,phone,cell,gender,nat&noinfo");
 //        System.out.println(json.toString());
 //        System.out.println(json.get("results"));
         ObjectMapper mapper = new ObjectMapper();
