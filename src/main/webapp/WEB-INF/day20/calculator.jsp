@@ -7,7 +7,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <%-- Scriplets contain Java code embedded within HTML --%>
-
+<!doctype html>
 <html>
 <head>
     <title>My Calculator App</title>
