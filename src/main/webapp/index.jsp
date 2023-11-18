@@ -14,5 +14,7 @@
 <a href="user-json">Json User Directory</a>
 <br/>
 <a href="your-servlet-path-here">Json Personal Project</a>
+<br/>
+<a href="users-db">Database User Directory</a>
 </body>
 </html>
