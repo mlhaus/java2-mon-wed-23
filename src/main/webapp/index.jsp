@@ -16,5 +16,11 @@
 <a href="your-servlet-path-here">Json Personal Project</a>
 <br/>
 <a href="users-db">Database User Directory</a>
+<br/>
+<a href="signup">Sign up</a>
+<br/>
+<a href="login">Login</a>
+<br/>
+<a href="logout">Logout</a>
 </body>
 </html>
