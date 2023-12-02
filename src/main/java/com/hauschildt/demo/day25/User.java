@@ -55,7 +55,8 @@ public class User {
 
     public void setEmail(String email) {
         // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email#basic_validation
-        if(!email.matches("^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$")) {
+        String regex = "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$";
+        if(!email.matches(regex)) {
             throw new IllegalArgumentException("Invalid email address");
         }
         this.email = email;
